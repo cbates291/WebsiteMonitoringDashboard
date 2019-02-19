@@ -1,3 +1,4 @@
-https://www.netjets.com
-https://www.executivejetmanagement.com
 http://httpstat.us/400
+http://httpstat.us/503
+http://httpstat.us/404
+http://httpstat.us/200
