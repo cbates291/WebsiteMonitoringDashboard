@@ -2,7 +2,7 @@
 Import-Module UniversalDashboard.Community
 
 
-$MyDashboard = New-UDDashboard -Title "NetJets Website Monitor" -Content {
+$MyDashboard = New-UDDashboard -Title "Website Monitor" -Content {
        New-UDTable -Title "Website Monitor"-Headers @("Uri", "StatusCode", "StatusDescription") -AutoRefresh -RefreshInterval 15 -Style responsive-table -Endpoint {
             $WebResult = @()
             $URLList = Get-Content -Path "C:\Users\a-cmh-cbates\OneDrive - NetJets\Documents\WindowsPowerShell\CustomScripts\Projects\urllist.txt"
