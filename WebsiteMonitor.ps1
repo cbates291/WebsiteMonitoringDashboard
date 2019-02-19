@@ -25,4 +25,4 @@ $MyDashboard = New-UDDashboard -Title "Website Monitor" -Content {
        } 
 }
 
-$Server = Start-UDDashboard -Port 1001 -Dashboard $MyDashboard -Name Tassadar
+$Server = Start-UDDashboard -Port 1001 -Dashboard $MyDashboard -Name WebsiteMonitor
