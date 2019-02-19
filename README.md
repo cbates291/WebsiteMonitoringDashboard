@@ -8,3 +8,6 @@ Dashboard for Website Monitoring using Universal Dashboard
 
 ## Initial Setup
 You will most likely need to install the module via the command `Install-Module UniversalDashboard.Community`. 
+
+## Improvement
+Add email when a website goes into a status other than 200. Want to try and limit sending to every X minutes so its not sending every 15 seconds, etc.
